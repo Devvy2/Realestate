@@ -1,11 +1,12 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home'
-import About from "./Pages/About"
-import Profile from "./Pages/Profile"
-import SignIn from './Pages/SignIn'
-import SignOut from './Pages/SignOut'
 import LayOut from './Layout/Layout'
+import Home from './Pages/home/Home'
+import About from "./Pages/about/About"
+import Profile from "./Pages/profile/Profile"
+import SignIn from './Pages/signIn/SignIn'
+import SignUp from './Pages/signup/SignUp'
+
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Sign-in" element={<SignIn />} />
-          <Route path="/Sign-out" element={<SignOut />} />
+          <Route path="/Sign-up" element={<SignUp />} />
         </Routes>
         </LayOut>
       </BrowserRouter>
