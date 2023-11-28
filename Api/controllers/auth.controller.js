@@ -1,6 +1,7 @@
 import User from "../models/user.model.js";
 import bcrypt from 'bcrypt';
 import Jwt from "jsonwebtoken";
+import { errorHandler } from "../middleware/errorHandler.js";
 
 export const signUp = async (req, res, next) => 
 {
@@ -29,4 +30,4 @@ export const signIn = async (req, res, next) =>{
     } catch (error) {
         next(error);
     }
-}
+};
