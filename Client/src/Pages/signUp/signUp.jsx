@@ -49,11 +49,11 @@ function SignUp() {
 
 return (
         <div>
-            <h1>Sign up</h1>
+            <h1>Sign Up</h1>
             <form onSubmit={handleSubmit} className="sign-up">
                 <input onChange={handleChange} type="text" placeholder="Username" id='username' />
                 <input onChange={handleChange} type="text" placeholder="Email" id='email'/>
-                <input onChange={handleChange} type="text" placeholder="Password" id='password'/>
+                <input onChange={handleChange} type="password" placeholder="Password" id='password'/>
                 <button className='sign-up-btn' disabled={loading}>{loading ? 'Loading...' : 'Sign Up'}</button>
                 <button className='sign-google-btn'>CONTINUE WITH GOOGLE</button>
             </form>
