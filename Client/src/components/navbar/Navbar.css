@@ -12,6 +12,8 @@ nav {
   list-style: none;
   padding: 0;
   color: rgba(255, 255, 255, 0.87);
+  align-items: center;
+  gap: 0.5em;
 }
 
 .navbar-list li {
@@ -35,4 +37,11 @@ a:link {
   height: 30px;
   border: none;
   border-radius: 10px;
+}
+
+.profile {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  object-fit: cover;
 }
