@@ -11,10 +11,24 @@ nav {
   display: flex;
   list-style: none;
   padding: 0;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .navbar-list li {
   padding: 0 10px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.navbar-list li:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.logo-nav {
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .nav-search {
