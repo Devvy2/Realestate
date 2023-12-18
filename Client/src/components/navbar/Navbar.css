@@ -1,25 +1,24 @@
 nav {
-    max-height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px;
-    background-color: gray;
+  max-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: gray;
 }
 
 .navbar-list {
-    display: flex;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 .navbar-list li {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .nav-search {
-    height: 30px;
-    border: none;
-    border-radius: 10px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
 }
-

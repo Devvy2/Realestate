@@ -1,50 +1,45 @@
-.log-in
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+.log-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
- input
-{
-    width: 500px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    padding: 0 10px;
-    
+input {
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 10px;
 }
 
 button {
-    width: 520px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    padding: 0 10px;
+  width: 520px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 10px;
 }
 
-.sign-in-btn
-{
-    background-color: rgb(38, 132, 55);
+.sign-in-btn {
+  background-color: rgb(38, 132, 55);
 }
 
-.sign-google-btn
-{
-    background-color: rgb(35, 35, 109);
+.sign-google-btn {
+  background-color: rgb(35, 35, 109);
 }
 
-.error-signIn{
-    color: red;
+.error-signIn {
+  color: red;
 }
 
-.Sign-Up{
-    color: rgb(0, 145, 255);
+.Sign-Up {
+  color: rgb(0, 145, 255);
 }
 
-.no-account{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
+.no-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
 }
