@@ -1,0 +1,31 @@
+.Profile-page {
+  display: flex;
+  justify-content: center;
+}
+
+.Profile-info {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.Profile-img {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.account-actions {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 0, 0, 0.945);
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.Update-btn {
+  background-color: rgb(35, 35, 109);
+}
