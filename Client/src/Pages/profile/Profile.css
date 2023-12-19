@@ -16,6 +16,7 @@
   height: 5em;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .account-actions {
@@ -28,4 +29,16 @@
 
 .Update-btn {
   background-color: rgb(35, 35, 109);
+}
+
+.img-upload-err {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.img-uploading-progress {
+  color: yellow;
+}
+
+.img-upload-success {
+  color: green;
 }
